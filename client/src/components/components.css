@@ -1,0 +1,30 @@
+.nobullet {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2px;
+}
+
+.listItem {
+    border-style: solid;
+    border-width: thin;
+    border-color: #cccccc;
+    margin: 4px 4px 4px 1px;
+    max-width: 480px;
+    text-align: start;
+    padding: 6px;
+    font-weight: 600;
+}
+
+.listItem:hover {
+    background-color: #2b537d;
+    color: white;
+}
+
+.searchbox {
+    max-width: 140px;
+}
+
+.searchbox:focus {
+    outline-color: rgb(58, 138, 243);
+    outline-width: 10px;
+}
